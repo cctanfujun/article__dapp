@@ -71,8 +71,8 @@ const Item = ({ item }) => {
   };
 
   return (
-    <Card color="blue" width="300" onClick={clickItem}>
-      <Card.Content>
+    <Card color="blue" width="300">
+      <Card.Content onClick={clickItem}>
         <Card.Content>
           <div onClick={clickItem}>
             <iframe
@@ -88,7 +88,11 @@ const Item = ({ item }) => {
         <Card.Meta textAlign="left" style={{ margin: "1em" }}>
           发现者:{item.discover}
         </Card.Meta>
-        <Card.Description textAlign="left" style={{ marginLeft: "1em" }}>
+        <Card.Description
+          textAlign="left"
+          style={{ marginLeft: "1em" }}
+          onClick={clickItem}
+        >
           {item.article_desc}
           <br />
           <br />
