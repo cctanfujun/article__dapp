@@ -1,0 +1,45 @@
+h5 {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#iframe {
+  zoom: 0.15;
+  -moz-transform: scale(0.4);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.4);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.4);
+  -webkit-transform-origin: 0 0;
+}
