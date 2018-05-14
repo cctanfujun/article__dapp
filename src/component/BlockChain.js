@@ -1,9 +1,9 @@
 import nebulas from "nebulas";
 
-var dappAddress = "n1zJy81vGfBiEUtm2eNLCL4TrArci2nTKEZ";
+var dappAddress = "n1nFV2ECkENJXRHqaP8rYPBAMR98GKKJLfX";
 var Account = nebulas.Account;
 var neb = new nebulas.Neb();
-neb.setRequest(new nebulas.HttpRequest("https://testnet.nebulas.io"));
+neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"));
 
 var NebPay = require("nebpay");
 var nebPay = new NebPay();

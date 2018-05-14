@@ -40,7 +40,7 @@ class About extends Component {
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 2}>
           <p>
-            我将这个项目开源到Github<a href="">详情</a>
+            我将这个项目开源到Github<a href="https://github.com/cctanfujun/article__dapp">详情</a>
           </p>
         </Accordion.Content>
         <Accordion.Title
